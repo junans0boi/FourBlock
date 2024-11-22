@@ -64,7 +64,8 @@ FOURBLOCK은 네이버 Open API와 데이터베이스를 활용한 쇼핑몰 프
 ---
 
 ## 🔄 플로우차트
-![플로우차트 이미지](#)
+<img width="960" alt="flowchart" src="https://github.com/user-attachments/assets/9aeb99de-b79a-4f62-9654-1f06a4102cfe">
+
 
 ---
 
