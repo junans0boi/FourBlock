@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+/* Logo styling */
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #222;
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar .icons {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+.navbar .icons a {
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: #222; /* 링크의 색상 설정 */
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar .logo {
+        font-size: 20px;
+    }
+    .navbar .icons {
+        font-size: 14px;
+        gap: 10px;
+    }
+}
